@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Selection";
+    Layout = "~/Views/Shared/_SelectionLayout.cshtml";
+}
+<div style="font-size:large">
+    <h3 style="text-align:center">Select Your Profession and Experience</h3>
+    <form>
+        <table class=" table table-dark">
+            <tr >
+                <td >Select Profession:</td>
+                <td>
+                    <select style="color:#000000">
+                        <option id="it">IT Professional</option>
+                        <option id="teacher">Teacher</option>
+                    </select>
+                </td>
+                <td>Select Experience:</td>
+                <td>
+                    <select style="color:#000000">
+                        <option id="zero">0</option>
+                        <option id="one">1 and above</option>
+                    </select>
+                </td>
+                <td style="color:#000000">
+                    <button type="submit" value="Search">Search</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
